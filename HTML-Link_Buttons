@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<title>A Cute List</title>
+
+	<style>
+	li {
+	    float:left;
+	    list-style-type:none;
+	}
+
+	a {
+		display:block;
+		text-align:center;
+		margin:10px;
+		/*line-height: 120%;*/
+		width:60px;
+		height:20px;    
+		padding:10px;
+	    font-family:impact;
+	    text-decoration:none;
+
+	   	color:white;
+	   	border-radius:15px;
+	    border:solid 2px #551A8B;
+	    background-color:#6A5ACD;
+	    box-shadow:0px 0px 10px 2px white inset;
+	}
+
+	a:hover {
+	   color:#6A5ACD;
+	   border-radius:15px;
+	   border:solid 2px #551A8B;
+	   background-color:white;
+	   box-shadow:0px 0px 10px 2px #551A8B inset;
+	}
+
+	a:active {
+	   color:white;
+	   border-radius:15px;
+	   border:solid 2px white;
+	   background-color:#EE7AE9;
+	   box-shadow:0px 0px 10px 2px #EE7AE9;
+	}
+	</style>
+
+</head>
+
+<body>
+	<ul>
+	    <li><a href="http://www.visstun.com" title="Visstun">Visstun</a></li>
+	    <li><a href="/list/B">B</a></li>
+	    <li><a href="/list/C">C</a></li>
+	    <li><a href="/list/D">D</a></li>
+	    <li><a href="/list/E">E</a></li>
+	    <li><a href="/list/F">F</a></li>
+	    <li><a href="/list/G">G</a></li>
+	    <li><a href="/list/H">H</a></li>
+	    <li><a href="/list/I">I</a></li>
+	    <li><a href="/list/J">J</a></li>
+	    <li><a href="/list/K">K</a></li>
+	    <li><a href="/list/L">L</a></li>
+	    <li><a href="/list/M">M</a></li>
+	    <li><a href="/list/N">N</a></li>
+	    <li><a href="/list/O">O</a></li>
+	    <li><a href="/list/P">P</a></li>
+	    <li><a href="/list/Q">Q</a></li>
+	    <li><a href="/list/R">R</a></li>
+	    <li><a href="/list/S">S</a></li>
+	    <li><a href="/list/T">T</a></li>
+	    <li><a href="/list/U">U</a></li>
+	    <li><a href="/list/V">V</a></li>
+	    <li><a href="/list/W">W</a></li>
+	    <li><a href="/list/X">X</a></li>
+	    <li><a href="/list/Y">Y</a></li>
+	    <li><a href="/list/Z">Z</a></li>
+	</ul>
+</body>
+</html>
